@@ -57,3 +57,18 @@ Open in IntelliJ IDEA.
 Ensure PostgreSQL is running.
 
 Run EndtermProjectApplication.java.
+
+
+## Bonus Task: In-Memory Caching Layer
+To enhance performance, a custom caching mechanism was implemented to reduce database overhead.
+
+Singleton Pattern: Managed via a BookCache class, ensuring a single centralized instance.
+
+Concurrency: Uses ConcurrentHashMap for thread-safe data storage.
+
+Layered Architecture: Cache logic is encapsulated within the Service Layer to maintain clean separation.
+
+Caching Strategy: Implements a Cache-Aside approach for getAllBooks() and Automatic Invalidation after any Add, Update, or Delete operation.
+
+##  Conclusion
+The project demonstrates a scalable RESTful API using Spring Boot and PostgreSQL. By integrating design patterns like Singleton (for Logging and Caching) and Factory, the system achieves high maintainability and performance while strictly adhering to SOLID principles.
