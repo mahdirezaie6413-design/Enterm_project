@@ -57,7 +57,7 @@ Open in IntelliJ IDEA.
 Ensure PostgreSQL is running.
 
 Run EndtermProjectApplication.java.
-
+```
 
 ## Bonus Task: In-Memory Caching Layer
 To enhance performance, a custom caching mechanism was implemented to reduce database overhead.
